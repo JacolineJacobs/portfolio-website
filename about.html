@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacoline Jacobs Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+ <body>
+    <nav id="navbar" class="the-stroke the-shadow color-nav">
+        <ul class="sidebar">
+            <li  onclick=hideSideBar()><a><i class="link fa-solid fa-xmark"></i></a></li>
+            <li><a class="link menu" href="./about.html">About Me</a></li>
+            <li><a class="link menu" href="./projects.html">My Work</a></li> 
+            <li><a class="link menu" href="./contact.html">Contact Me</a></li>
+        </ul>
+        <ul class="nav-link">
+            <li><a class="link logo" href="./index.html">JACOLINE JACOBS</a></li>
+            <li><a class="link menu hide-on-mobile" href="./about.html">About Me</a></li>
+            <li><a class="link menu hide-on-mobile" href="./projects.html">My Work</a></li> 
+            <li><a class="link menu hide-on-mobile" href="./contact.html">Contact Me</a></li>
+            <li onclick=showSideBar() class="burger"><a><i class="link fa-solid fa-bars"></i></a></li>
+        </ul>
+    </nav> 
+
+    <div class="title-container the-stroke">
+        <h1>GET TO KNOW ME | </h1><p class="subtitle paddingl">Let’s Dive Into My World</p>
+    </div>
+
+    <div class="skills the-stroke">
+        <h2>What I Do</h2>
+        <p class="subtitle">I specialize in crafting engaging digital experiences. <br>Here’s a quick overview of what I can do:</p>
+        <div class="skills-container">
+            <div class="skill-card the-stroke">
+                <img src="./images/html.png" alt="">
+                <p class="subtitle">HTML</p>
+             <p class="skills-text">I write clean, semantic HTML to structure content and ensure accessibility.</p>
+            </div>
+            <div class="skill-card the-stroke">
+                <img src="./images/css.png" alt="">
+                <p class="subtitle">CSS</p>
+             <p class="skills-text">I style responsive, visually appealing websites with modern CSS techniques.</p>
+            </div>
+            <div class="skill-card the-stroke">
+                <img src="./images/javascript.png" alt="">
+                <p class="subtitle">JavaScript</p>
+             <p class="skills-text">I’m building my skills in JavaScript, focusing on adding interactive features to websites.</p>
+            </div>
+            <div class="skill-card the-stroke">
+                <img src="./images/vs code.png" alt="">
+                <p class="subtitle">VS Code</p>
+             <p class="skills-text">I use VS Code to efficiently organize and write code, streamlining my workflow with extensions and tools.</p>
+            </div>
+            <div class="skill-card the-stroke">
+                <img src="./images/ux design.png" alt="">
+                <p class="subtitle">UX Design</p>
+             <p class="skills-text">I craft user-centered designs that prioritize clarity and usability based on research and user behavior.</p>
+            </div>
+            <div class="skill-card the-stroke">
+                <img src="./images/wordpress.png" alt="">
+                <p class="subtitle">WordPress</p>
+             <p class="skills-text"> I’m enhancing my skills in WordPress, customizing themes and plugins to create functional websites.</p>
+            </div>
+            <div class="skill-card the-stroke">
+                <img src="./images/figma.png" alt="">
+                <p class="subtitle">Figma</p>
+             <p class="skills-text"> I design user interfaces in Figma with a strong visual focus, though I’m still exploring prototyping features.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="education the-stroke">
+        <h2>My Learning Journey</h2>
+        <p class="subtitle">I am committed to lifelong learning and have earned several certifications to deepen my expertise. <br>Here’s a selection of my credentials:</p>
+            <h3 class="paddingt">PROFESSIONAL CERTIFICATIONS</h3>
+        <div class="edu-row">
+            <div class="the-shadow the-stroke edu-card">
+                <h3>freeCodeCamp  |  <span>Hands-on coding projects and problem-solving mastery.</span></h3>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="the-shadow the-stroke edu-card">
+                <h3>Interaction Design Foundation (IxDF)  |  <span>Deep dives into UX design and user-centered thinking.</span></h3>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
+            <h3 class="paddingt">ACADEMIC ACHIEVEMENTS</h3>
+            <div class="the-shadow the-stroke edu-card">
+                <h3>University of South Africa  |  <span>Academic foundation in psychology and linguistics.</span></h3>
+                <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </div>
+
+    <div class="experience the-stroke">
+        <h2>Explore My Experience</h2>
+        <p class="subtitle">Interested in my professional background? 
+            <br>You can download my resume to learn more about my journey, skills, and projects.</p>
+        <a href="./assets/Jacoline Jacobs Resume.pdf" download="Jacoline-Jacobs-Resume.pdf"><button class="the-shadow the-stroke button">DOWNLOAD MY RESUME</button></a>
+    </div>
+
+    <div class="hobbies the-stroke">
+        <h2>When I’m Not Coding</h2>
+        <p class="subtitle">When I’m not buried in code, you’ll find me immersed in a good book, exploring new design ideas, or laughing at the latest cat memes online. I believe that creativity flourishes when we take time to recharge and find joy in the little things.</p>
+        <a href="./bookshelf.html" target="_blank"><button class="the-shadow the-stroke button">VIEW MY BOOKSHELF</button></a>
+    </div>
+
+    <div class="lets-chat the-stroke">
+        <div class="lc-container-1">
+        <h2>Let’s Chat</h2>
+        <p class="subtitle">Ready to start a new project? Have a cool idea or just want to talk shop? 
+            I’m always up for a good conversation! 
+            Whether it’s a quick question or a big collaboration, don’t hesitate to get in touch.</p>
+            <a href="./contact.html"><button class="the-shadow the-stroke button">GET IN TOUCH</button></a>
+        </div>
+        <div class="lc-container-2">
+           <div class="lc-img-text"><img src="./images/envelope.png"><p class="subtitle">jacolinejacobs@outlook.com</p></div> 
+           <div class="lc-img-text"><img src="./images/phone.png"><p class="subtitle">+2766 142 0407</p> </div>
+           <div class="lc-img-text"><img src="./images/map.png"><p class="subtitle">South Africa</p></div> 
+        </div>
+    </div>
+
+    <footer id="footer" class="the-stroke">
+        <div class="footer-contact">
+            <p>jacolinejacobs@outlook.com</p>
+            <a href="https://www.linkedin.com/in/jacoline-jacobs/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <p>+2766 142 0407</p>
+        </div>
+        
+        <hr>
+        <p class="footer-text">2024 Jacoline Jacobs   |   Web Developer</p>
+    </footer>
+        
+    <script src="./script.js"></script>
+ </body>
+
+ </html>

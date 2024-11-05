@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacoline Jacobs Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+ <body>
+    <nav id="navbar" class="the-stroke the-shadow color-nav">
+        <ul class="sidebar">
+            <li  onclick=hideSideBar()><a><i class="link fa-solid fa-xmark"></i></a></li>
+            <li><a class="link menu" href="./about.html">About Me</a></li>
+            <li><a class="link menu" href="./projects.html">My Work</a></li> 
+            <li><a class="link menu" href="./contact.html">Contact Me</a></li>
+        </ul>
+        <ul class="nav-link">
+            <li><a class="link logo" href="./index.html">JACOLINE JACOBS</a></li>
+            <li><a class="link menu hide-on-mobile" href="./about.html">About Me</a></li>
+            <li><a class="link menu hide-on-mobile" href="./projects.html">My Work</a></li> 
+            <li><a class="link menu hide-on-mobile" href="./contact.html">Contact Me</a></li>
+            <li onclick=showSideBar() class="burger"><a><i class="link fa-solid fa-bars"></i></a></li>
+        </ul>
+    </nav> 
+
+    <div class="title-container the-stroke">
+        <h1>Get in Touch  |  </h1><p class="subtitle paddingl">I’d Love to Hear from You!</p>
+    </div>
+
+    <div class="contact-form-container">
+        <div class="contact-form the-shadow the-stroke">
+            <h2>Drop Me a Message</h2>
+            <p class="subtitle text-center-align">Fill out the form below, or if you’re feeling old-school, shoot me an email at <span class="email-highlight">jacolinejacobs@outlook.com</span>. I can’t wait to hear what you’re up to!</p>
+            <div class="form-input">
+                <input type="text" placeholder="Full Name *" class="the-shadow the-stroke full-name">
+                <input type="email" placeholder="youremail@gmail.com *" class="the-shadow the-stroke email">
+                <textarea class="the-shadow the-stroke message" placeholder="Your message here" rows="12" cols="68"></textarea>
+            
+        </div>
+            <button class="the-shadow the-stroke button">SEND MESSAGE</button>
+        </div>
+    </div>
+
+    <div class="lets-chat the-stroke">
+        <div class="lc-container-1">
+        <h2>Let’s Chat</h2>
+        <p class="subtitle">Ready to start a new project? Have a cool idea or just want to talk shop? 
+            I’m always up for a good conversation! 
+            Whether it’s a quick question or a big collaboration, don’t hesitate to get in touch.</p>
+            <a href="./contact.html"><button class="the-shadow the-stroke button">GET IN TOUCH</button></a>
+        </div>
+        <div class="lc-container-2">
+           <div class="lc-img-text"><img src="./images/envelope.png"><p class="subtitle">jacolinejacobs@outlook.com</p></div> 
+           <div class="lc-img-text"><img src="./images/phone.png"><p class="subtitle">+2766 142 0407</p> </div>
+           <div class="lc-img-text"><img src="./images/map.png"><p class="subtitle">South Africa</p></div> 
+        </div>
+    </div>
+        
+    <footer id="footer" class="the-stroke">
+        <div class="footer-contact">
+            <p>jacolinejacobs@outlook.com</p>
+            <a href="https://www.linkedin.com/in/jacoline-jacobs/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <p>+2766 142 0407</p>
+        </div>
+        
+        <hr>
+        <p class="footer-text">2024 Jacoline Jacobs   |   Web Developer</p>
+    </footer>
+        
+    <script src="./script.js"></script>
+ </body>
+
+ </html>

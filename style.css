@@ -1,0 +1,515 @@
+:root {
+    --dark-color: #000000;
+    --light-color: #ffffff;
+    --green: #8BE78B;
+    --purple: #9E84E7;
+    --blue: #84D6E7;
+    --yellow: #ECD036; 
+    --red: #F77659;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+}
+
+/*  TEXT STYLING */
+
+h1 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.subtitle {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.25rem;
+}
+
+.paddingl {
+    padding-left: 24px;
+}
+
+.logo {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 1.875rem;
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.link {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.menu {
+    font-family: Poppins;
+    font-size: 1.25rem;
+}
+
+.button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.125rem;
+    font-weight: bold;
+    letter-spacing: 6%;
+    text-transform: uppercase;
+}
+
+.footer-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 24px auto;
+}
+
+span {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.text-center-align {
+    text-align: center;
+}
+
+.email-highlight {
+    background-color: var(--green);
+}
+
+.author-name {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.875rem;
+    color: var(--light-color);
+}
+
+.book-description {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.875rem;
+}
+
+@media (max-width: 768px) {
+    * {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    * {
+        font-size: 12px;
+    }
+}
+
+/* SHADOW AND STROKE STYLING */
+
+.the-shadow {
+    box-shadow:  4px 4px var(--dark-color);
+}
+
+.the-stroke {
+    border: 1px solid var(--dark-color);
+}
+
+/* BUTTON STYLING */
+
+button {
+    width: 400px;
+    height: 55px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: var(--green);
+    transform: scale(1.05);
+}
+
+/* NAVBAR STYLING */
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    background-color: var(--purple);
+}
+
+nav ul {
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav li {
+    height: 100px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+}
+
+.burger {
+    display: none;
+}
+
+nav a:hover {
+    background-color: var(--green);
+    border: 1px solid var(--dark-color);
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+.color-nav {
+    background-color: var(--light-color) !important;
+}
+
+.sidebar {
+    display: none;
+    flex-direction: column;
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: var(--purple);
+    z-index: 11;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid var(--dark-color);
+    box-shadow:  -4px 4px var(--dark-color);
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .burger {
+        display: flex;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+/* HERO STYLING */
+
+header {
+    padding-top: 114px;
+    width: 100%;
+    height: 581px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-container {
+    width: 100%;
+    background-color: #9E84E7;
+    display: flex;
+    align-items: center;
+    padding: 0px 80px 40px 80px;
+    padding-top: 154px !important;
+}
+
+@media (max-width: 768px) {
+    .title-container {
+        padding: 0px 40px 40px 40px;
+    }
+}
+
+/* what i do section styling */
+
+.skills {
+    width: 100%;
+    padding: 80px;
+}
+
+.skills-container {
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 48px;
+    gap: 48px;
+}
+
+.skill-card {
+    padding: 24px;
+    max-width: 300px;
+}
+
+.skills-text {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* my learning journey section styling */
+
+.education {
+    width: 100%;
+    padding: 80px;
+    background-color: var(--green);
+}
+
+.edu-card {
+   width: 40%;
+   height: 140px;
+   background-color: var(--light-color);
+   display: flex;
+   align-items: center;
+   margin-top: 32px;
+   padding-left: 56px;
+   padding-right: 56px;
+   justify-content: space-between;
+}
+
+.edu-row {
+    display: flex;
+    gap: 32px;
+}
+
+.paddingt {
+    padding-top: 48px;
+}
+
+/* experience section styling */
+
+.experience {
+    padding: 80px;
+}
+
+/* hobbies section design */
+
+.hobbies {
+    padding: 80px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--blue);
+}
+
+/* let's chat section styling */
+
+.lets-chat {
+    display: flex;
+    padding: 80px;
+    gap: 10%;
+}
+
+@media (max-width: 768px) {
+    .lets-chat {
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+    }
+}
+
+.lc-container-1 {
+    max-width: 650px;
+    min-width: 300px;
+    margin-left: 80px;
+}
+
+.lc-container-2 {
+    max-width: 650px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.lc-img-text {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+/* contact form styling */
+
+.contact-form-container {
+    width: 100%;
+}
+
+.contact-form {
+    width: 800px;
+    height: 700px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.full-name, .email {
+    width: 257px;
+    height: 50px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 8px;
+}
+
+.message {
+    padding: 8px;
+}
+
+.full-name:focus{
+    background-color: var(--green);
+}
+
+.email:focus {
+    background-color: var(--green);
+}
+
+.message:focus {
+    background-color: var(--green);
+}
+
+.form-input {
+  width:550px;
+  margin-top: 16px;
+  margin-bottom: -24px;
+}
+
+/* bookshelf page styling */
+
+.bookshelf {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.book-card {
+    width: 400px;
+    height: 250px;
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-text {
+    width: 230px;
+}
+
+.book-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-suggestion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-suggestion-container {
+    width: 950px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+    background-color: var(--green);
+}
+
+.book-input {
+    height: 50px;
+    width: 530px;
+    padding: 8px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.book-input:focus {
+    background-color: var();
+}
+
+.reason-input:focus {
+    background-color: var();
+}
+
+.reason-input {
+    padding: 8px;
+}
+
+/* PROJECTS PAGE STYLING */
+
+.projects {
+    margin: 100px 80px;
+}
+
+.project-card {
+    width: 600px;
+    height: 400px;
+    padding: 32px;
+}
+
+/* FOOTER STYLING */
+
+footer {
+    width: 100%;
+    height: 148px;
+    background-color: var(--blue);
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+hr {
+    border-color: var(--dark-color);
+}
+
+.fa-linkedin {
+    font-size: 40px;
+    color: var(--dark-color);
+}
