@@ -617,6 +617,17 @@ header {
     padding: 32px;
 }
 
+@media (max-width: 768px) {
+    .projects {
+        margin: 40px;
+    }
+    .project-card {
+        width: 300px;
+        height: 200px;
+        padding: 16px;
+    }
+}
+
 /* FOOTER STYLING */
 
 footer {
