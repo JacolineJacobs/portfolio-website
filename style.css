@@ -305,7 +305,9 @@ header {
     .skill-card {
         padding: 16px;
     }
-}
+    .skills-container {
+        gap: 16px;
+}}
 
 /* my learning journey section styling */
 
