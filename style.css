@@ -599,6 +599,11 @@ header {
     width: 600px;
     height: 400px;
     padding: 32px;
+    background-color: var(--green);
+}
+
+.project-text {
+    text-align: center;
 }
 
 @media (max-width: 768px) {
