@@ -335,7 +335,7 @@ header {
 
 .edu-card {
     padding: 16px;
-    width: 250px;
+    max-width: 250px;
     background-color: var(--light-color);
 }
 
