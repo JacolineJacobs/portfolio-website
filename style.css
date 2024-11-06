@@ -545,7 +545,7 @@ header {
 }
 
 .book-card {
-    width: 400px;
+    max-width: 400px;
     height: 250px;
     padding: 16px;
     display: flex;
@@ -555,7 +555,7 @@ header {
 }
 
 .book-text {
-    width: 230px;
+    max-width: 230px;
 }
 
 .book-align {
@@ -565,45 +565,6 @@ header {
     justify-content: center;
 }
 
-.book-suggestion {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.book-suggestion-container {
-    width: 950px;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 32px;
-    margin-bottom: 100px;
-    margin-top: 20px;
-    background-color: var(--green);
-}
-
-.book-input {
-    height: 50px;
-    width: 530px;
-    padding: 8px;
-    margin-top: 32px;
-    margin-bottom: 24px;
-}
-
-.book-input:focus {
-    background-color: var();
-}
-
-.reason-input:focus {
-    background-color: var();
-}
-
-.reason-input {
-    padding: 8px;
-}
 
 /* PROJECTS PAGE STYLING */
 
