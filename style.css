@@ -339,7 +339,7 @@ header {
 
 .edu-card {
     padding: 16px;
-    max-width: 250px;
+    width: 250px;
     background-color: var(--light-color);
 }
 
@@ -447,6 +447,9 @@ header {
     .accordion-content2,
     .accordion-content3 {
         padding: 16px;
+    }
+    .edu-card {
+        width: 200px;
     }
 }
 
