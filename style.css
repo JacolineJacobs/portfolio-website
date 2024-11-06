@@ -235,8 +235,11 @@ nav li:first-child {
     .burger {
         display: flex;
     }
-    .fa-xmark, .fa-bars {
-        font-size: 16px;
+    .fa-xmark {
+        font-size: 18px;
+    } 
+    .fa-bars {
+        font-size: 18px;
     }
     .hide-on-mobile {
         display: none;
