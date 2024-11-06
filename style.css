@@ -582,6 +582,7 @@ header {
     .book-card {
         padding: 16px;
         height: 200px;
+        width: 250px;
     }
     .book-text {
         width: 150px;
