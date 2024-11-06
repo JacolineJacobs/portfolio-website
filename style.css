@@ -565,6 +565,15 @@ header {
     justify-content: center;
 }
 
+@media (max-width: 768px) {
+    .book-card {
+        width: 250px;
+        gap: 8px;
+    }
+    .book-text {
+        width: 130px;
+    }
+}
 
 /* PROJECTS PAGE STYLING */
 
