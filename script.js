@@ -22,7 +22,7 @@ const arrowExpand1 = document.querySelector('.arrow-expand1');
 const arrowCollapse1 = document.querySelector('.arrow-collapse1');
 
 function expandAccordion1() {
-        content1.style.display = 'block';
+        content1.style.display = 'flex';
         arrowExpand1.style.display = 'none';
         arrowCollapse1.style.display = 'block';
 } 
@@ -39,7 +39,7 @@ const arrowExpand2 = document.querySelector('.arrow-expand2');
 const arrowCollapse2 = document.querySelector('.arrow-collapse2');
 
 function expandAccordion2() {
-        content2.style.display = 'block';
+        content2.style.display = 'flex';
         arrowExpand2.style.display = 'none';
         arrowCollapse2.style.display = 'block';
 } 
@@ -56,7 +56,7 @@ const arrowExpand3 = document.querySelector('.arrow-expand3');
 const arrowCollapse3 = document.querySelector('.arrow-collapse3');
 
 function expandAccordion3() {
-        content3.style.display = 'block';
+        content3.style.display = 'flex';
         arrowExpand3.style.display = 'none';
         arrowCollapse3.style.display = 'block';
 } 
