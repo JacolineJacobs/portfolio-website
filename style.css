@@ -284,6 +284,7 @@ header {
 .skill-card {
     padding: 24px;
     max-width: 300px;
+    min-width: 200px;
 }
 
 .skill-card span {
@@ -307,7 +308,8 @@ header {
     }
     .skills-container {
         gap: 16px;
-}}
+}
+}
 
 /* my learning journey section styling */
 
@@ -472,7 +474,6 @@ header {
 
 @media (max-width: 768px) {
     .experience {padding: 40px;}
-    .hobbies {padding: 20px;}
 }
 
 /* hobbies section design */
@@ -485,6 +486,12 @@ header {
     justify-content: center;
     text-align: center;
     background-color: var(--blue);
+}
+
+@media (max-width: 768px) {
+    .hobbies {
+        padding: 40px;
+    }
 }
 
 /* let's chat section styling */
