@@ -37,39 +37,32 @@
         <p class="subtitle">I specialize in crafting engaging digital experiences. <br>Here’s a quick overview of what I can do:</p>
         <div class="skills-container">
             <div class="skill-card the-stroke">
-                <img src="./images/html.png" alt="">
-                <p class="subtitle">HTML</p>
-             <p class="skills-text">I write clean, semantic HTML to structure content and ensure accessibility.</p>
+                <span><img src="./images/html.png" alt=""><p class="subtitle">HTML</p></span>
+                <p class="skills-text">I write clean, semantic HTML to structure content and ensure accessibility.</p>
             </div>
             <div class="skill-card the-stroke">
-                <img src="./images/css.png" alt="">
-                <p class="subtitle">CSS</p>
-             <p class="skills-text">I style responsive, visually appealing websites with modern CSS techniques.</p>
+                <span><img src="./images/css.png" alt=""><p class="subtitle">CSS</p></span>
+                <p class="skills-text">I style responsive, visually appealing websites with modern CSS techniques.</p>
             </div>
             <div class="skill-card the-stroke">
-                <img src="./images/javascript.png" alt="">
-                <p class="subtitle">JavaScript</p>
-             <p class="skills-text">I’m building my skills in JavaScript, focusing on adding interactive features to websites.</p>
+                <span><img src="./images/javascript.png" alt=""><p class="subtitle">JavaScript</p></span>
+                <p class="skills-text">I’m building my skills in JavaScript, focusing on adding interactive features to websites.</p>
             </div>
             <div class="skill-card the-stroke">
-                <img src="./images/vs code.png" alt="">
-                <p class="subtitle">VS Code</p>
-             <p class="skills-text">I use VS Code to efficiently organize and write code, streamlining my workflow with extensions and tools.</p>
+                <span><img src="./images/vs code.png" alt=""><p class="subtitle">VS Code</p></span>
+                <p class="skills-text">I use VS Code to efficiently organize and write code, streamlining my workflow with extensions and tools.</p>
             </div>
             <div class="skill-card the-stroke">
-                <img src="./images/ux design.png" alt="">
-                <p class="subtitle">UX Design</p>
-             <p class="skills-text">I craft user-centered designs that prioritize clarity and usability based on research and user behavior.</p>
+                <span><img src="./images/ux design.png" alt=""><p class="subtitle">UX Design</p></span>
+                <p class="skills-text">I craft user-centered designs that prioritize clarity and usability based on research and user behavior.</p>
             </div>
             <div class="skill-card the-stroke">
-                <img src="./images/wordpress.png" alt="">
-                <p class="subtitle">WordPress</p>
-             <p class="skills-text"> I’m enhancing my skills in WordPress, customizing themes and plugins to create functional websites.</p>
+                <span><img src="./images/wordpress.png" alt=""><p class="subtitle">WordPress</p></span>
+                <p class="skills-text"> I’m enhancing my skills in WordPress, customizing themes and plugins to create functional websites.</p>
             </div>
             <div class="skill-card the-stroke">
-                <img src="./images/figma.png" alt="">
-                <p class="subtitle">Figma</p>
-             <p class="skills-text"> I design user interfaces in Figma with a strong visual focus, though I’m still exploring prototyping features.</p>
+                <span><img src="./images/figma.png" alt=""><p class="subtitle">Figma</p></span>
+                <p class="skills-text"> I design user interfaces in Figma with a strong visual focus, though I’m still exploring prototyping features.</p>
             </div>
         </div>
     </div>
@@ -79,20 +72,54 @@
         <p class="subtitle">I am committed to lifelong learning and have earned several certifications to deepen my expertise. <br>Here’s a selection of my credentials:</p>
             <h3 class="paddingt">PROFESSIONAL CERTIFICATIONS</h3>
         <div class="edu-row">
-            <div class="the-shadow the-stroke edu-card">
-                <h3>freeCodeCamp  |  <span>Hands-on coding projects and problem-solving mastery.</span></h3>
-                <i class="fa-solid fa-chevron-down"></i>
+            <div class="accordion">
+                <button class="accordion-button the-shadow the-stroke"><h3>freeCodeCamp  |  <span>Hands-on coding projects and problem-solving mastery.</span></h3>
+                    <i onclick=expandAccordion1() class="fa-solid fa-chevron-down arrow-expand1"></i><i onclick=collapseAccordion1() class="fa-solid fa-chevron-up arrow-collapse1"></i></button>
+                <div class="accordion-content1 the-stroke the-shadow">
+                    <div class="edu-card the-stroke" >
+                        <p>Responsive Web Design</p>
+                        <ul>Skills learned
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="the-shadow the-stroke edu-card">
-                <h3>Interaction Design Foundation (IxDF)  |  <span>Deep dives into UX design and user-centered thinking.</span></h3>
-                <i class="fa-solid fa-chevron-down"></i>
+            <div class="accordion">
+                <button class="accordion-button the-shadow the-stroke"><h3>Interaction Design Foundation (IxDF)  |  <span>Deep dives into UX design and user-centered thinking.</span></h3>
+                    <i onclick=expandAccordion2() class="fa-solid fa-chevron-down arrow-expand2"></i><i onclick=collapseAccordion2() class="fa-solid fa-chevron-up arrow-collapse2"></i></button>
+                <div class="accordion-content2 the-stroke the-shadow">
+                    <div class="edu-card the-stroke">
+                        <p>Responsive Web Design</p>
+                        <ul>Skills learned
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
             <h3 class="paddingt">ACADEMIC ACHIEVEMENTS</h3>
-            <div class="the-shadow the-stroke edu-card">
-                <h3>University of South Africa  |  <span>Academic foundation in psychology and linguistics.</span></h3>
-                <i class="fa-solid fa-chevron-down"></i>
-        </div>
+            <div class="accordion">
+                <button class="accordion-button the-shadow the-stroke"><h3>University of South Africa  |  <span>Academic foundation in psychology and linguistics.</span></h3>
+                    <i onclick=expandAccordion3() class="fa-solid fa-chevron-down arrow-expand3"></i><i onclick=collapseAccordion3() class="fa-solid fa-chevron-up arrow-collapse3"></i></button>
+                <div class="accordion-content3 the-stroke the-shadow">
+                    <div class="edu-card the-stroke">
+                        <p>Responsive Web Design</p>
+                        <ul>Skills learned
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                    <div class="edu-card the-stroke">
+                        <p>Responsive Web Design</p>
+                        <ul>Skills learned
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
     </div>
 
     <div class="experience the-stroke">
@@ -114,7 +141,6 @@
         <p class="subtitle">Ready to start a new project? Have a cool idea or just want to talk shop? 
             I’m always up for a good conversation! 
             Whether it’s a quick question or a big collaboration, don’t hesitate to get in touch.</p>
-            <a href="./contact.html"><button class="the-shadow the-stroke button">GET IN TOUCH</button></a>
         </div>
         <div class="lc-container-2">
            <div class="lc-img-text"><img src="./images/envelope.png"><p class="subtitle">jacolinejacobs@outlook.com</p></div> 
