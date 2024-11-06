@@ -553,7 +553,8 @@ header {
 
 .book-card {
     max-width: 400px;
-    padding: 16px;
+    height: 250px;
+    padding: 32px;
     display: flex;
     gap: 16px;
     align-items: center;
@@ -574,6 +575,8 @@ header {
 @media (max-width: 768px) {
     .book-card {
         gap: 16px;
+        padding: 16px;
+        height: 200px;
     }
     .book-text {
         width: 150px;
